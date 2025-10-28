@@ -341,7 +341,7 @@ class snapchat:
         elapsed = str(now - self.started_time).split(".")[0]
         sent_snaps = self.sent_snaps
         if onLinux() == False:
-            ctypes.windll.kernel32.SetConsoleTitleW(f"Snapchat Score PLUS v1.2| Sent Snaps: {sent_snaps} | Elapsed: {elapsed}s | Developed by @FlazeIGuess with help of @useragents on Github")
+            ctypes.windll.kernel32.SetConsoleTitleW(f"Fatallus Private v1.2| Sent Snaps: {sent_snaps} | Elapsed: {elapsed}s | Developed by @Cyberfattie with help of @h1m0n on Github")
 
     def print_console(self, arg, status = "Console"):
         log_message = f"[{status}] {arg}"
@@ -394,7 +394,7 @@ class snapchat:
     def main(self):
         if onLinux() == False:
             os.system("cls")
-            ctypes.windll.kernel32.SetConsoleTitleW("Snapchat Score PLUS v1.2| Developed by @FlazeIGuess with help of @useragents on Github")
+            ctypes.windll.kernel32.SetConsoleTitleW("Fatallus Private v1.2| Developed by @Cyberfattie with help of @h1m0n on Github")
         else:
             os.system("clear")
 
